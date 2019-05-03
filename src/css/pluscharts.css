@@ -1,0 +1,39 @@
+.pc-chart-wrapper {
+    box-sizing: border-box;
+    font-family: inherit;
+}
+.pc-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: #121212;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    line-height: 1;
+    font-family: inherit;
+    z-index: 2;
+}
+text {
+    pointer-events: none;
+}
+.pc-expand {
+    transform: scale(1.5, 1.5);
+}
+.pc-legend-text {
+    text-transform: capitalize;
+}
+.pc-y-axis path,
+.pc-x-axis path {
+    stroke: #e5e5e5;
+}
+
+.pc-y-axis line,
+.pc-x-axis line {
+    display: none;
+}
+
+.pc-y-axis text,
+.pc-x-axis text {
+    color: #001737;
+}
